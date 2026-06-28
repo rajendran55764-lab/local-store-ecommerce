@@ -10,7 +10,7 @@ function Orders({ token }) {
 
   const fetchOrders = async () => {
     try {
-      const res = await fetch('https://local-store-backend-xxxx.onrender.com/api/orders/myorders', {
+      const res = await fetch('https://local-store-backend-qw5w.onrender.com/api/orders/myorders', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
