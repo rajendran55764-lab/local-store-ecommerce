@@ -18,7 +18,7 @@ function Cart({ token, setPage }) {
 
   const fetchCart = async () => {
     try {
-      const res = await fetch('https://local-store-backend-xxxx.onrender.com/api/cart', {
+      const res = await fetch('https://local-store-backend-qw5w.onrender.com/api/cart', {
         headers: { 'Authorization': `Bearer ${token}` }
       });
       const data = await res.json();
@@ -34,7 +34,7 @@ function Cart({ token, setPage }) {
 
   const removeItem = async (itemId) => {
     try {
-      const res = await fetch(`https://local-store-backend-xxxx.onrender.com/api/cart/remove/${itemId}`, {
+      const res = await fetch(`https://local-store-backend-qw5w.onrender.com/api/cart/remove/${itemId}`, {
         method: 'DELETE',
         headers: { 'Authorization': `Bearer ${token}` }
       });
@@ -50,7 +50,7 @@ function Cart({ token, setPage }) {
 
   const placeOrder = async () => {
     try {
-      const res = await fetch('https://local-store-backend-xxxx.onrender.com/api/orders', {
+      const res = await fetch('https://local-store-backend-qw5w.onrender.com/api/orders', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
