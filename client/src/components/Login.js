@@ -17,8 +17,8 @@ function Login({ handleLogin, setPage }) {
     e.preventDefault();
     try {
       const url = isRegister
-        ? 'https://local-store-backend-xxxx.onrender.com/api/auth/register'
-        : 'https://local-store-backend-xxxx.onrender.com/api/auth/login';
+        ? 'https://local-store-backend-qw5w.onrender.com/api/auth/register'
+        : 'https://local-store-backend-qw5w.onrender.com/api/auth/login';
 
       const body = isRegister
         ? { username, ...formData }
