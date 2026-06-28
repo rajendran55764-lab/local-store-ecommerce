@@ -49,7 +49,7 @@ An e-commerce website for a local store enabling customers to browse and purchas
 
 ##  Live Demo
 ### Frontend (Website)
-[Click Here to Open Website](https://local-store-ecommerce-xxxx.vercel.app)
+[Click Here to Open Website](https://local-store-ecommerce.vercel.app)
 
 ### Backend (API)
 [Click Here to Open API](https://local-store-backend-qw5w.onrender.com)
