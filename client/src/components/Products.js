@@ -14,7 +14,7 @@ function Products({ token, setPage }) {
 
   const fetchProducts = async () => {
     try {
-      let url = 'https://local-store-backend-xxxx.onrender.com/api/products?';
+      let url = 'https://local-store-backend-qw5w.onrender.com/api/products?';
       if (search) url += `search=${search}&`;
       if (category) url += `category=${category}&`;
       if (sort) url += `sort=${sort}&`;
@@ -37,7 +37,7 @@ function Products({ token, setPage }) {
       return;
     }
     try {
-      const res = await fetch('https://local-store-backend-xxxx.onrender.com/api/cart/add', {
+      const res = await fetch('https://local-store-backend-qw5w.onrender.com/api/cart/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
